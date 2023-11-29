@@ -1,0 +1,28 @@
+
+
+body { font-family: Arial, sans-serif; font-size: 16px; color: #333; margin: 0; padding: 0; }
+.header { background-color: #FBB13C; padding: 20px; text-align: center; }
+
+.header h1 { color: #218380; margin: 0; }
+
+.navbar { background-color: #218380; padding: 10px; }
+
+.navbar ul { list-style-type: none; padding: 0; margin: 0; }
+
+.navbar ul li { display: inline; margin-right: 10px; }
+
+.navbar ul li a { color: #fff; text-decoration: none; }
+
+.content { padding: 20px; }
+
+.content h2 { color: #218380; }
+
+.footer { background-color: #FBB13C; padding: 20px; text-align: center; }
+
+.footer p { margin: 0; }
+
+/* CSS3 for background color animation */ body { animation: changecolor 5s infinite; }
+
+@keyframes changecolor { 0% {background-color: #FBB13C;} 50% {background-color: #218380;} 100% {background-color: #FBB13C;} }
+
+
